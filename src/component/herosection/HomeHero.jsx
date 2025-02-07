@@ -9,7 +9,7 @@ const HomeHero = () => {
       <h1 className="text-center 3xl:text-[4.68rem] lg:text-6xl text-5xl font-bold text-black-100 3xl:mb-16 mb-8">
         Here, There and Everywhere.
       </h1>
-      <div className="flex xl:gap-20 gap-5 items-center  max-lg:flex-wrap w-full lg:justify-around  max-w-[76.063rem] mx-auto lg:mb-10 mb-7 3xl:mb-[4.37rem]">
+      <div className="flex 3xl:gap-20 gap-5 sm:gap-10 items-center  max-lg:flex-wrap w-full lg:justify-around  max-w-[76.063rem] mx-auto lg:mb-10 mb-7 3xl:mb-[4.37rem]">
         <div className="flex gap-3 lg:max-w-[13.31rem]">
           <img
             src="/assets/svg/small-earth.svg"
@@ -20,7 +20,7 @@ const HomeHero = () => {
             190 Countries <br className="max-lg:hidden" /> 8 Regions
           </span>
         </div>
-        <div className="w-px h-[5.25rem] bg-black  max-lg:hidden opacity-20"></div>
+        <div className="w-px 3xl:h-[5.25rem] h-11 bg-black  max-lg:hidden opacity-20"></div>
         <div className="flex gap-3">
           <img
             src="/assets/svg/small-sim.svg"
@@ -86,7 +86,7 @@ const HomeHero = () => {
           ].map((ele, ind) => (
             <div
               key={ind}
-              className="z-[9] min-w-[10rem] sm:min-w-[15rem] max-w-[18.56rem] lg:h-48 sm:h-40 h-[6.56rem] relative mx-auto rounded-2xl overflow-hidden"
+              className="z-[9] min-w-[10rem] sm:min-w-[15rem] max-w-[18.56rem] 3xl:h-48 sm:h-40 h-[6.56rem] relative mx-auto rounded-2xl overflow-hidden"
             >
               <img src={ele.img} alt="" className="h-full w-full" />
               <div className=" absolute sm:left-10 left-6 top-1/2  -translate-y-1/2">
