@@ -31,7 +31,7 @@ const Header = () => {
               alt="flag_logo"
             />
             <div className="flex items-center gap-1">
-              <span className="font-semibold text-xl text-black">EN</span>
+              <span className="font-semibold 3xl:text-xl text-lg text-black">EN</span>
               <img
                 src="/assets/svg/down-chevron.svg"
                 alt=""
