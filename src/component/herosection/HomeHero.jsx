@@ -20,7 +20,7 @@ const HomeHero = () => {
             190 Countries <br className="max-lg:hidden" /> 8 Regions
           </span>
         </div>
-        <div className="w-px 3xl:h-[5.25rem] h-9 bg-black  max-lg:hidden opacity-20"></div>
+        <div className="w-px 3xl:h-[5.25rem] h-14 bg-black  max-lg:hidden opacity-20"></div>
         <div className="flex gap-3">
           <img
             src="/assets/svg/small-sim.svg"
