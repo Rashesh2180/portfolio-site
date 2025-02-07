@@ -9,7 +9,7 @@ const HomeHero = () => {
       <h1 className="text-center 3xl:text-[4.68rem] lg:text-6xl text-5xl font-bold text-black-100 3xl:mb-16 mb-8">
         Here, There and Everywhere.
       </h1>
-      <div className="flex 3xl:gap-20 gap-5 sm:gap-10 items-center  max-lg:flex-wrap w-full lg:justify-around  max-w-[76.063rem] mx-auto lg:mb-10 mb-7 3xl:mb-[4.37rem]">
+      <div className="flex 3xl:gap-20 gap-5 sm:gap-5 items-center  max-lg:flex-wrap w-full lg:justify-around  3xl:max-w-[76.063rem] max-w-[65rem] mx-auto lg:mb-10 mb-7 3xl:mb-[4.37rem]">
         <div className="flex gap-3 lg:max-w-[13.31rem]">
           <img
             src="/assets/svg/small-earth.svg"
@@ -20,7 +20,7 @@ const HomeHero = () => {
             190 Countries <br className="max-lg:hidden" /> 8 Regions
           </span>
         </div>
-        <div className="w-px 3xl:h-[5.25rem] h-11 bg-black  max-lg:hidden opacity-20"></div>
+        <div className="w-px 3xl:h-[5.25rem] h-9 bg-black  max-lg:hidden opacity-20"></div>
         <div className="flex gap-3">
           <img
             src="/assets/svg/small-sim.svg"
@@ -119,21 +119,21 @@ const HomeHero = () => {
               <div className="flex items-center gap-2.5">
                 <a
                   href="#"
-                  className="lg:h-14 lg:w-14 h-8 w-8 bg-black rounded-full flex justify-center items-center"
+                  className="3xl:h-14 3xl:w-14 sm:h-10 sm:w-10 h-8 w-8 bg-black rounded-full flex justify-center items-center"
                 >
                   <img
                     src="/assets/svg/small-apple-logo.svg"
-                    className="lg:w-[1.37rem] lg:h-[1.62rem] w-3 h-3.5"
+                    className="3xl:w-[1.37rem] 3xl:h-[1.62rem] w-3 h-3.5  sm:h-4 sm:w-4"
                     alt=""
                   />
                 </a>
                 <a
                   href="#"
-                  className="lg:h-14 lg:w-14 h-8 w-8 bg-gray-25 rounded-full flex justify-center items-center"
+                  className="3xl:h-14 3xl:w-14 sm:h-10 sm:w-10 h-8 w-8 bg-gray-25 rounded-full flex justify-center items-center"
                 >
                   <img
                     src="/assets/svg/playstore-small.svg"
-                    className="lg:w-[1.37rem] lg:h-[1.62rem] w-3 h-3.5"
+                    className="3xl:w-[1.37rem] 3xl:h-[1.62rem] w-3 h-3.5  sm:h-4 sm:w-4"
                     alt=""
                   />
                 </a>

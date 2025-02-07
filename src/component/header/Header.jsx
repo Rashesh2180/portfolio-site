@@ -39,7 +39,7 @@ const Header = () => {
             />
           </div>
         </button>
-        <button className="bg-primary hidden lg:block border border-primary text-nowrap hover:bg-white hover:text-primary rounded-full text-white text-xl font-semibold xl:px-7 px-4 py-4 text-center">
+        <button className="bg-primary hidden lg:block border border-primary text-nowrap hover:bg-white hover:text-primary rounded-full text-white 3xl:text-xl text-lg font-semibold xl:px-7 px-4 py-4 text-center">
           Get My eSIM
         </button>
         <button className="bg-primary rounded-full h-11 w-11 lg:hidden flex justify-center items-center shrink-0">
